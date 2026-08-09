@@ -203,4 +203,9 @@ An integer specifies the exact padding; t means 4 pixels."
 
   ())
 
+;;;###autoload
+(when load-file-name
+  (add-to-list 'custom-theme-load-path
+               (file-name-directory load-file-name)))
+
 ;;; doom-islands-relax-light-celadon-theme.el ends here

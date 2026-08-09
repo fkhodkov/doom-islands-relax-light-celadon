@@ -29,6 +29,14 @@
                :background-mode)
               'light)))
 
+(ert-deftest islands-relax-light-celadon-registers-theme-directory ()
+  (let ((custom-theme-load-path nil))
+    (load (expand-file-name "doom-islands-relax-light-celadon-theme.el"
+                            islands-relax-light-celadon-test-root)
+          nil nil t)
+    (should (member islands-relax-light-celadon-test-root
+                    custom-theme-load-path))))
+
 (ert-deftest islands-relax-light-celadon-defines-core-faces ()
   (load-theme 'doom-islands-relax-light-celadon t)
   (dolist (face '(default cursor region font-lock-keyword-face
