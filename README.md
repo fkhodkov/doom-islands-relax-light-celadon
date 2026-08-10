@@ -65,6 +65,29 @@ Reload Kitty's configuration with <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F5</kbd>
 The theme defines the terminal foreground and background, ANSI palette,
 selection, cursor, borders, tabs, marks, and scrollbar colors.
 
+### bat / batcat
+
+On Ubuntu, the `bat` executable is named `batcat`. Install the theme and
+rebuild bat's theme cache with:
+
+```sh
+mkdir -p "$(batcat --config-dir)/themes"
+cp "bat/Islands Relax Light Celadon.tmTheme" "$(batcat --config-dir)/themes/"
+batcat cache --build
+```
+
+Select it in `$(batcat --config-file)`:
+
+```text
+--theme="Islands Relax Light Celadon"
+```
+
+For a one-off preview, run:
+
+```sh
+batcat --theme="Islands Relax Light Celadon" path/to/file
+```
+
 ## Palette
 
 | Role | Color |
