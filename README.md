@@ -47,6 +47,24 @@ load the theme:
 (load-theme 'doom-islands-relax-light-celadon t)
 ```
 
+### Kitty terminal
+
+Copy the Kitty theme into your Kitty configuration directory:
+
+```sh
+cp kitty/Islands-Relax-Light-Celadon.conf ~/.config/kitty/
+```
+
+Then include it from `kitty.conf`:
+
+```conf
+include Islands-Relax-Light-Celadon.conf
+```
+
+Reload Kitty's configuration with <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F5</kbd>.
+The theme defines the terminal foreground and background, ANSI palette,
+selection, cursor, borders, tabs, marks, and scrollbar colors.
+
 ## Palette
 
 | Role | Color |
