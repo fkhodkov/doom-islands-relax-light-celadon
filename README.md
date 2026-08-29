@@ -65,6 +65,32 @@ Reload Kitty's configuration with <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F5</kbd>
 The theme defines the terminal foreground and background, ANSI palette,
 selection, cursor, borders, tabs, marks, and scrollbar colors.
 
+### Ghostty terminal
+
+Copy the Ghostty theme into its custom theme directory:
+
+```sh
+mkdir -p ~/.config/ghostty/themes
+cp "ghostty/Islands Relax Light Celadon" ~/.config/ghostty/themes/
+```
+
+Then select it in `~/.config/ghostty/config.ghostty` (or `config` on Ghostty
+versions before 1.2.3):
+
+```conf
+theme = Islands Relax Light Celadon
+```
+
+Reload Ghostty's configuration from its application menu. The theme can also
+be selected as the light half of an automatic light/dark pair:
+
+```conf
+theme = light:Islands Relax Light Celadon,dark:Your Dark Theme
+```
+
+On Linux, the theme also uses Ghostty's custom window chrome so the titlebar
+matches the original Islands UI palette.
+
 ### bat / batcat
 
 On Ubuntu, the `bat` executable is named `batcat`. Install the theme and

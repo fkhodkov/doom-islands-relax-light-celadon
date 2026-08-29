@@ -1,0 +1,47 @@
+# Islands Relax Light Celadon
+#
+# A Ghostty port of Panxiaoan's Islands Relax Light Celadon theme.
+# Source palette: falcon-jetbrains-themes commit
+# a6743fb34c96553f3f278a48de3e067e0eb766f7
+
+# Core colors
+background = #e4ecef
+foreground = #383a42
+
+# Cursor and selection
+cursor-color = #067d17
+cursor-text = #fafeff
+selection-background = #afdbb8
+selection-foreground = #383a42
+
+# Search
+search-background = #f6d4c8
+search-foreground = #383a42
+search-selected-background = #fde8b1
+search-selected-foreground = #383a42
+
+# Splits and Linux titlebar
+split-divider-color = #70a6ae
+window-theme = ghostty
+window-titlebar-background = #c4dee4
+window-titlebar-foreground = #1a536e
+
+# ANSI colors. The nominal white slots are intentionally dark enough to remain
+# readable on the Celadon background, matching the companion Kitty theme.
+palette = 0=#383a42
+palette = 1=#ce5e5e
+palette = 2=#067d17
+palette = 3=#9e880d
+palette = 4=#174ad4
+palette = 5=#871790
+palette = 6=#007297
+palette = 7=#5a5d6b
+
+palette = 8=#8c8c8c
+palette = 9=#ef233c
+palette = 10=#30a25e
+palette = 11=#cc9d57
+palette = 12=#397fb7
+palette = 13=#a35cf0
+palette = 14=#62b3b3
+palette = 15=#27282e
