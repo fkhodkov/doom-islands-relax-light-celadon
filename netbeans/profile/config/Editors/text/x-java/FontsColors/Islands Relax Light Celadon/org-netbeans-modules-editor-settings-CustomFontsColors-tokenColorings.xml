@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fontscolors PUBLIC "-//NetBeans//DTD Editor Fonts and Colors settings 1.1//EN" "http://www.netbeans.org/dtds/EditorFontsColors-1_1.dtd">
+<fontscolors>
+    <fontcolor name="mod-class" foreColor="ff007297"/>
+    <fontcolor name="mod-class-declaration" foreColor="ff007297" bold="true"/>
+    <fontcolor name="mod-interface" foreColor="ff007297"/>
+    <fontcolor name="mod-interface-declaration" foreColor="ff007297" bold="true"/>
+    <fontcolor name="mod-enum" foreColor="ff007297"/>
+    <fontcolor name="mod-enum-declaration" foreColor="ff007297" bold="true"/>
+    <fontcolor name="mod-annotation-type" foreColor="ff007297"/>
+    <fontcolor name="mod-annotation-type-declaration" foreColor="ff007297" bold="true"/>
+    <fontcolor name="mod-method" foreColor="ff643cb8"/>
+    <fontcolor name="mod-method-declaration" foreColor="ff643cb8" bold="true"/>
+    <fontcolor name="mod-constructor" foreColor="ff643cb8"/>
+    <fontcolor name="mod-constructor-declaration" foreColor="ff643cb8" bold="true"/>
+    <fontcolor name="mod-field" foreColor="ff8d4532"/>
+    <fontcolor name="mod-field-declaration" foreColor="ff8d4532"/>
+    <fontcolor name="mod-parameter" foreColor="ff8d4532"/>
+    <fontcolor name="mod-parameter-declaration" foreColor="ff8d4532"/>
+    <fontcolor name="mod-local-variable" foreColor="ff383a42"/>
+    <fontcolor name="mod-local-variable-declaration" foreColor="ff383a42"/>
+    <fontcolor name="mod-static" foreColor="ff871790"/>
+    <fontcolor name="mod-abstract" italic="true"/>
+    <fontcolor name="mod-deprecated" strikeThrough="ff8c8c8c"/>
+    <fontcolor name="mod-unused" foreColor="ffaeb3c2"/>
+    <fontcolor name="mod-mark-occurrences" bgColor="ffc2e6e2"/>
+    <fontcolor name="string-escape" foreColor="ff174ad4"/>
+    <fontcolor name="string-escape-invalid" foreColor="ffce5e5e" waveUnderlined="ffce5e5e"/>
+    <fontcolor name="keyword-directive" foreColor="ff067d17"/>
+    <fontcolor name="literal" foreColor="ff871790"/>
+    <fontcolor name="javadoc-identifier" foreColor="ff007297"/>
+    <fontcolor name="javadoc-first-sentence" foreColor="ff8c8c8c" bold="true"/>
+    <fontcolor name="javadoc-tag" foreColor="ff067d17"/>
+    <fontcolor name="html-tag" foreColor="ff007297"/>
+</fontscolors>

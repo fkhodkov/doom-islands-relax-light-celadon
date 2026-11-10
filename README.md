@@ -114,6 +114,26 @@ For a one-off preview, run:
 batcat --theme="Islands Relax Light Celadon" path/to/file
 ```
 
+### Apache NetBeans
+
+NetBeans treats editor colors and application chrome as separate settings.
+Build the editor profile from its XML sources:
+
+```sh
+./netbeans/build.sh
+```
+
+Then open **Tools > Options > Import**, select the generated
+`netbeans/Islands-Relax-Light-Celadon-NetBeans.zip`, and restart NetBeans if
+prompted. The profile supplies shared editor colors plus Java semantic colors.
+
+For the matching IDE chrome, select a light FlatLaf look and feel under
+**Tools > Options > Appearance > Look and Feel**, then open the **FlatLaf** tab,
+choose **Edit custom properties**, and replace its contents with
+`netbeans/FlatLaf.properties`. Apply the changes and restart NetBeans. The
+generated ZIP is intentionally ignored by Git; rerun `netbeans/build.sh`
+whenever its XML sources change.
+
 ## Palette
 
 | Role | Color |

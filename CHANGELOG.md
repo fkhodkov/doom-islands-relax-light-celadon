@@ -6,5 +6,6 @@
 - Add a matching Kitty terminal color theme.
 - Add a matching Ghostty terminal color theme.
 - Add a matching bat syntax-highlighting theme.
+- Add a NetBeans editor profile and matching FlatLaf UI properties.
 - Cover core Emacs, completion, Doom UI, version-control, diagnostics, Org,
   Markdown, rainbow-delimiters, Treemacs, and tab faces.
